@@ -1,8 +1,14 @@
 {
   "name": "simple-node",
-  "version": "1.0.0",
   "description": "A simple NodeJS module to test GitHub Actions",
-  "main": "index.js",
+  "version": "1.0.0",
   "author": "Max Schoening <max@max.wtf>",
-  "license": "MIT"
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --color --verbose"
+  }
 }
