@@ -8,4 +8,6 @@ jobs:
     - uses: actions/setup-node@master
       with:
         version: 10.x
-    - run: npm cit
+    - run: |
+        yarn install --frozen-lockfile
+        yarn test
