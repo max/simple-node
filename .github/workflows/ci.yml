@@ -10,3 +10,4 @@ jobs:
         version: 10.x
     - run: yarn install --frozen-lockfile
     - run: yarn test
+    - run: yarn run semantic-release
