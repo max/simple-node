@@ -1,0 +1,8 @@
+{
+  "name": "simple-node",
+  "version": "1.0.0",
+  "description": "A simple NodeJS module to test GitHub Actions",
+  "main": "index.js",
+  "author": "Max Schoening <max@max.wtf>",
+  "license": "MIT"
+}
