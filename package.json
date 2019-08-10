@@ -1,5 +1,5 @@
 {
-  "name": "simple-node",
+  "name": "@mschoening/simple-node",
   "description": "A simple NodeJS module to test GitHub Actions",
   "version": "0.0.0-development",
   "author": "Max Schoening <max@max.wtf>",
