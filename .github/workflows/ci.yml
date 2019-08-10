@@ -8,6 +8,5 @@ jobs:
     - uses: actions/setup-node@master
       with:
         version: 10.x
-    - run: |
-        yarn install --frozen-lockfile
-        yarn test
+    - run: yarn install --frozen-lockfile
+    - run: yarn test
