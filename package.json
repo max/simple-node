@@ -1,14 +1,20 @@
 {
   "name": "simple-node",
   "description": "A simple NodeJS module to test GitHub Actions",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "author": "Max Schoening <max@max.wtf>",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "semantic-release": "^15.13.19"
   },
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "jest --ci --color --verbose"
+    "test": "jest --ci --color --verbose",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/max/simple-node.git"
   }
 }
